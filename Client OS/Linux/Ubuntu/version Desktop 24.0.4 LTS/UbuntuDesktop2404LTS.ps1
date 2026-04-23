@@ -1,4 +1,4 @@
-$iso = "https://ubuntu.com/download/desktop/thank-you?version=24.04.4&architecture=amd64&lts=true"
+$iso = "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-desktop-amd64.iso"
 
 $destination = "C:\OS\ISOs\Ubuntu/Destop/24.0.4"
 
