@@ -120,7 +120,7 @@ do
   switch($selection)
   {
   '1'{  cls
-        $FedoraLinuxISO = Invoke-WebRequest("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/OSDownloadsMain.ps1")
+        $FedoraLinuxISO = Invoke-WebRequest("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Linux/Fedora%20Linux/FedoraLinux.ps1")
         Invoke-Expression $($FedoraLinuxISO.Content)
       }
   '2' { cls
