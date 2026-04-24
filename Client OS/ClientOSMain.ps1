@@ -128,7 +128,7 @@ do
         Invoke-Expression $($KaliLinuxISO.Content)
         }
   '3'{  cls
-        $UbuntuDesktopISO = Invoke-WebRequest("")
+        $UbuntuDesktopISO = Invoke-WebRequest("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Linux/Ubuntu/version%20Desktop%2024.0.4%20LTS/UbuntuDesktop2404LTS.ps1")
         Invoke-Expression $($UbuntuDesktopISO.Content)
       }
   '4' { cls
