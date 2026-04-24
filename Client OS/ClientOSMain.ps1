@@ -124,7 +124,7 @@ do
         Invoke-Expression $($FedoraLinuxISO.Content)
       }
   '2' { cls
-        $KaliLinuxISO = Invoke-WebRequest ("https://github.com/osdcloudcline/Scripts/raw/refs/heads/main/Administrative/OSModsMainMenu.ps1")
+        $KaliLinuxISO = Invoke-WebRequest ("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Linux/Kali%20Linux/KaliLinux.ps1")
         Invoke-Expression $($KaliLinuxISO.Content)
         }
   '3'{  cls
