@@ -121,24 +121,24 @@ do
         Invoke-Expression $($ClientOSDownloadsISO.Content)
       }
   '2' { cls
-        $OSModifications = Invoke-WebRequest ("https://github.com/osdcloudcline/Scripts/raw/refs/heads/main/Administrative/OSModsMainMenu.ps1")
-        Invoke-Expression $($OSModifications.Content)
+        $ServerOSDownloadISOs = Invoke-WebRequest ("https://github.com/osdcloudcline/Scripts/raw/refs/heads/main/Administrative/OSModsMainMenu.ps1")
+        Invoke-Expression $($ServerOSDownloadISOs.Content)
         }
   '3'{  cls
-        $Software = Invoke-WebRequest("")
-        Invoke-Expression $($Software.Content)
+        $RescueMedia = Invoke-WebRequest("")
+        Invoke-Expression $($RescueMedia.Content)
       }
   '4' { cls
-        $Domain = Invoke-WebRequest ("")
-        Invoke-Expression $($Domain.Content)
+        $OSDCloudISOs = Invoke-WebRequest ("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/OSD%20Cloud/OSDCloudISOMain.ps1")
+        Invoke-Expression $($OSDCloudISOs.Content)
         }
  '5' { cls
-        $LocalPC = Invoke-WebRequest ("")
-        Invoke-Expression $($LocalPC.Content)
+        $NASOSDownloads = Invoke-WebRequest ("")
+        Invoke-Expression $($NASOSDownloads.Content)
         }
 '6' { cls
-        $LocalPC = Invoke-WebRequest ("")
-        Invoke-Expression $($LocalPC.Content)
+        $Main = Invoke-WebRequest ("")
+        Invoke-Expression $($Main.Content)
         }
         }
        until ($selection -eq '6'){exit}
