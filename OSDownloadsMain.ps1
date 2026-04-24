@@ -117,8 +117,8 @@ do
   switch($selection)
   {
   '1'{  cls
-        $OSDownloadsISO = Invoke-WebRequest("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/OSDownloadsMain.ps1")
-        Invoke-Expression $($OSDownloadsISO.Content)
+        $ClientOSDownloadsISO = Invoke-WebRequest("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/OSDownloadsMain.ps1")
+        Invoke-Expression $($ClientOSDownloadsISO.Content)
       }
   '2' { cls
         $OSModifications = Invoke-WebRequest ("https://github.com/osdcloudcline/Scripts/raw/refs/heads/main/Administrative/OSModsMainMenu.ps1")
