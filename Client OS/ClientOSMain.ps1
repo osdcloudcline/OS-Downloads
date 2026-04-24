@@ -144,7 +144,7 @@ do
         Invoke-Expression $($Win1126H1.Content)
         }
 '7' { cls
-        $Win1126H2 = Invoke-WebRequest ("")
+        $Win1126H2 = Invoke-WebRequest ("https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Windows/Windows%2011/26H2/26H2.ps1")
         Invoke-Expression $($Win1126H2.Content)
         }
 '8' { cls
