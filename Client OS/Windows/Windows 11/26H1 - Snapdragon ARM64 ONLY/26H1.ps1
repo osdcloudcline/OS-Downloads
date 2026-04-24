@@ -7,7 +7,7 @@ Import-Module -Name OSD -Force
 
 $ZIPDestination = "$env:userprofile\Downloads\OS\Windows11\26H1"
 
-$Windows1125H2URL = "https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Windows/Windows%2011/25H2/26200.8313_amd64_en-us_multi_509ef3a9_convert_virtual.zip"
+$Windows1125H2URL = "https://github.com/osdcloudcline/OS-Downloads/raw/refs/heads/main/Client%20OS/Windows/Windows%2011/26H1%20-%20Snapdragon%20ARM64%20ONLY/28000.1836_arm64_en-us_multi_b96f4e35_convert_virtual.zip"
 
 $ExtractionLocation = $ZIPDestination
 
@@ -23,7 +23,7 @@ pause
 
 Write-Host "Expanding Windows 11 26H1 ZIP File..." -ForegroundColor Cyan 
 
-Expand-Archive -Path "$ZIPDestination\26200.8313_amd64_en-us_multi_509ef3a9_convert_virtual.zip" -DestinationPath $ZIPDestination
+Expand-Archive -Path "$ZIPDestination\28000.1836_arm64_en-us_multi_b96f4e35_convert_virtual.zip" -DestinationPath $ZIPDestination
 
 pause
 
