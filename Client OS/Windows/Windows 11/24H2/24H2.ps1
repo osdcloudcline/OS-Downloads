@@ -23,7 +23,7 @@ pause
 
 Write-Host "Expanding Windows 11 24H2 ZIP File..." -ForegroundColor Cyan 
 
-Expand-Archive -Path "$ZIPDestination\26100.2033_amd64_en-us_multi_7a25f043_convert_virtual.zip" -DestinationPath $ZIPDestination
+Expand-Archive -Path "$ZIPDestination\26100.8313_amd64_en-us_multi_038c7416_convert_virtual.zip" -DestinationPath $ZIPDestination
 
 pause
 
